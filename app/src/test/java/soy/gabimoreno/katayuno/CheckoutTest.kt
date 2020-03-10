@@ -6,7 +6,7 @@ import org.junit.Test
 class CheckoutTest {
 
     @Test
-    fun `1 book cost 8€`() {
+    fun `1 book gets 0% discount`() {
         val checkout = Checkout(numberOfDifferentBooks = 1)
 
         val res = checkout.get()
