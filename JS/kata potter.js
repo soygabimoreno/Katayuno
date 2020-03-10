@@ -2,7 +2,7 @@ describe('mocha + assert', () => {
 
   it('discount for 1 book', () => {
     let numberOfBooks = 1;
-    
+    ;
     let res = calculatePrice(numberOfBooks);
     
     assert.equal('8.00€', res)});
